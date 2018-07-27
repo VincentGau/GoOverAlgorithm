@@ -9,8 +9,11 @@ namespace GoOverAlgorithm
 {
     class Program
     {
+        // 回溯法 求解八皇后问题
+        // 先在第一行放置，然后放第二行，如果没有发现冲突继续尝试在下一行放置，否则在该行下一个位置放置；
+
         static int[] board = new int[8] { 0, 0, 0, 0, 0, 0, 0, 0 };
-        static int count = 0;
+        static int count = 0; // 一共多少种解法
         static void Main(string[] args)
         {
 
@@ -21,7 +24,10 @@ namespace GoOverAlgorithm
             Console.WriteLine(count);
         }
 
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="n"></param>
         private static void placeQueen(int n)
         {
             if (n.Equals(8))
@@ -46,7 +52,11 @@ namespace GoOverAlgorithm
             }
         }
 
-        // 检查放置该皇后后是否产生冲突
+        /// <summary>
+        ///  检查放置该皇后后是否产生冲突 冲突返回false
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
         private static bool checkConflict(int n)
         {
             for(int i = 0; i < n; i++)

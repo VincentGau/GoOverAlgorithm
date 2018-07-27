@@ -8,13 +8,17 @@ namespace MaxHeap
 {
     class Program
     {
-        // http://bubkoo.com/2014/01/14/sort-algorithm/heap-sort/
-
+        
         static void Main(string[] args)
         {
             int[] array = { 3, 5, 1, 7, 4, 2 };
             int[] top = new int[4];
             topK(array, 4, top);
+
+            foreach (var i in top)
+            {
+                Console.WriteLine(i);
+            }
 
             //heapSort(array);
             //foreach(var i in array)
@@ -23,6 +27,8 @@ namespace MaxHeap
             //}
         }
 
+
+        // 初始化最大堆，堆顶元素最大，将堆顶元素和最后一个叶子结点交换，重新调整二叉树保持最大堆特性；下次操作时排除尾部已排序的元素（通过heapifyMax 方法的最后一个参数决定）
         private static void heapSort(int[] array)
         {
             buildMaxHeap(array);
@@ -50,10 +56,10 @@ namespace MaxHeap
                 }
             }
 
-            foreach(var i in kMax)
-            {
-                Console.WriteLine(i);
-            }
+            //foreach(var i in kMax)
+            //{
+            //    Console.WriteLine(i);
+            //}
         }
 
         private static void buildMinHeap(int[] array)

@@ -11,7 +11,7 @@ namespace MaxHeap
         
         static void Main(string[] args)
         {
-            int[] array = { 3, 5, 1, 7, 4, 2 };
+            int[] array = { 3, 5, 1, 7, 4, 2, 10, 13, 15 };
             int[] top = new int[4];
             topK(array, 4, top);
 

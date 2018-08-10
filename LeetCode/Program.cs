@@ -10,7 +10,9 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            FindMedianSortedArrays.find(new int[] { 1, 2}, new int[] { 3, 4});
+            //FindMedianSortedArrays.find(new int[] { 1, 2}, new int[] { 3, 4});
+
+            LongestPalindromicSubString.LongestPalindrome("cbbd");
         }
     }
 }

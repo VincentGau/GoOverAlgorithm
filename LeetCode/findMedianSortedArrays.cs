@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace LeetCode
 {
+    /// <summary>
+    /// 求两个有序数组的中位数，如果有两个中位数，求其均值；
+    /// </summary>
     class FindMedianSortedArrays
     {
         // num1 和num2 不同时为空

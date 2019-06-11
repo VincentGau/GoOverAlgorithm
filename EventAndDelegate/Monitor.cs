@@ -7,6 +7,12 @@ using System.Threading.Tasks;
 
 namespace EventAndDelegate
 {
+    public class MonitorEventArgs : EventArgs
+    {
+        public int MyProperty { get; set; }
+    }
+
+
     public class Monitor
     {
 
@@ -14,19 +20,19 @@ namespace EventAndDelegate
         // 2- Define an event based on that delegate
         // 3- Raise event
         
-        public event EventHandler MonitorDone;
+        public event EventHandler<MonitorEventArgs> MonitorDone;
 
         public void ProcessMonitor()
         {
             Console.WriteLine("Processing monitor...");
             Thread.Sleep(2000);
 
-            OnMonitorDone();
+            OnMonitorDone(123);
         }
 
-        protected virtual void OnMonitorDone()
+        protected virtual void OnMonitorDone(int param)
         {
-            MonitorDone?.Invoke(this, EventArgs.Empty);
+            MonitorDone?.Invoke(this, new MonitorEventArgs() { MyProperty = param });
         }
     }
 }

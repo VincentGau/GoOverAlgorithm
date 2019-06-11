@@ -9,9 +9,9 @@ namespace EventAndDelegate
 {
     public class MessageService
     {
-        public void OnMonitorDone(object source, EventArgs args)
+        public void OnMonitorDone(object source, MonitorEventArgs args)
         {
-            Console.WriteLine("Sending message...");
+            Console.WriteLine($"Sending message... {args.MyProperty}");
         }
     }
 }

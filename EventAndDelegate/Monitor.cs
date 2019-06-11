@@ -13,10 +13,8 @@ namespace EventAndDelegate
         // 1- Define a delegate
         // 2- Define an event based on that delegate
         // 3- Raise event
-
-        public delegate void MonitorEventHandler(object source, EventArgs args);
-
-        public event MonitorEventHandler MonitorDone;
+        
+        public event EventHandler MonitorDone;
 
         public void ProcessMonitor()
         {

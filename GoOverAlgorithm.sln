@@ -15,11 +15,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxHeap", "MaxHeap\MaxHeap.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode", "LeetCode\LeetCode.csproj", "{E4509197-17F0-4BAB-8357-7AD76EF397D1}"
 EndProject
+
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestPlace", "TestPlace\TestPlace.csproj", "{662A2653-2680-457E-BB18-9A8E897E57E2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSort", "QuickSort\QuickSort.csproj", "{BE6B19BA-8A7A-4D4C-9D9A-018074144DA7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSort", "MergeSort\MergeSort.csproj", "{86D629EE-AEC2-4FCE-B38C-13395860AA20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventAndDelegate", "EventAndDelegate\EventAndDelegate.csproj", "{0047F031-3271-4222-97D6-BA0BB1758508}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -15,14 +15,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxHeap", "MaxHeap\MaxHeap.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode", "LeetCode\LeetCode.csproj", "{E4509197-17F0-4BAB-8357-7AD76EF397D1}"
 EndProject
-
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestPlace", "TestPlace\TestPlace.csproj", "{662A2653-2680-457E-BB18-9A8E897E57E2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSort", "QuickSort\QuickSort.csproj", "{BE6B19BA-8A7A-4D4C-9D9A-018074144DA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSort", "MergeSort\MergeSort.csproj", "{86D629EE-AEC2-4FCE-B38C-13395860AA20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeSort", "MergeSort\MergeSort.csproj", "{86D629EE-AEC2-4FCE-B38C-13395860AA20}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventAndDelegate", "EventAndDelegate\EventAndDelegate.csproj", "{0047F031-3271-4222-97D6-BA0BB1758508}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{6070EDBB-793A-4AE0-A47A-87ACFD5D7169}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,6 +67,14 @@ Global
 		{86D629EE-AEC2-4FCE-B38C-13395860AA20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86D629EE-AEC2-4FCE-B38C-13395860AA20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86D629EE-AEC2-4FCE-B38C-13395860AA20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0047F031-3271-4222-97D6-BA0BB1758508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0047F031-3271-4222-97D6-BA0BB1758508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0047F031-3271-4222-97D6-BA0BB1758508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0047F031-3271-4222-97D6-BA0BB1758508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6070EDBB-793A-4AE0-A47A-87ACFD5D7169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6070EDBB-793A-4AE0-A47A-87ACFD5D7169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6070EDBB-793A-4AE0-A47A-87ACFD5D7169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6070EDBB-793A-4AE0-A47A-87ACFD5D7169}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

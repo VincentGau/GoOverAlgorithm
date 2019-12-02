@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace TestPlace
 {
+
     class Program
     {
         static void Main(string[] args)
